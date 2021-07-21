@@ -1,0 +1,30 @@
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: black 2px solid;
+    margin: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.ButtonOff {
+    background: #E0E0E0;
+}
+
+.ButtonOff:hover {
+    background: #EEEEEE;
+}
+
+.ButtonOn {
+    background: #66BB6A;
+    box-shadow: 0px 0px 15px 8px #81C784;
+}
+
+.Img {
+    width: 50px;
+    height: 50px;
+}
+
